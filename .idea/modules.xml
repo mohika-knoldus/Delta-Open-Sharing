@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Delta Open Sharing.iml" filepath="$PROJECT_DIR$/.idea/modules/Delta Open Sharing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Delta Open Sharing-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Delta Open Sharing-build.iml" />
+    </modules>
+  </component>
+</project>

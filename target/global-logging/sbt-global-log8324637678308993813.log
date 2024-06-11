@@ -1,0 +1,122 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.6 (Ubuntu Java 11.0.20.1)
+[debug]       Load.loadUnit: plugins took 385.595684ms
+[debug]       Load.loadUnit: defsScala took 0.374632ms
+[debug] [Loading] Scanning directory /home/knoldus/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/knoldus/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 35.276753 ms
+[debug]           Load.resolveProject(global-plugins) took 248.650883ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/knoldus/.sbt/1.0/plugins, plugins: List(<none>))) took 383.706125ms
+[debug] [Loading] Done in /home/knoldus/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 550.021024ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.316855ms
+[debug]     Load.loadUnit(file:/home/knoldus/.sbt/1.0/plugins/, ...) took 946.409917ms
+[debug]   Load.apply: load took 1844.4505ms
+[debug]   Load.apply: resolveProjects took 13.643145ms
+[debug]   Load.apply: finalTransforms took 186.38576ms
+[debug]   Load.apply: config.delegates took 12.2087ms
+[debug]   Load.apply: Def.make(settings)... took 1976.772804ms
+[debug]   Load.apply: structureIndex took 423.674832ms
+[debug]   Load.apply: mkStreams took 2.757424ms
+[info] loading global plugins from /home/knoldus/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 10929.208446ms
+[debug]           Load.loadUnit: plugins took 19.731877ms
+[debug]           Load.loadUnit: defsScala took 0.011712ms
+[debug] [Loading] Scanning directory /home/knoldus/Desktop/Delta Open Sharing/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/knoldus/Desktop/Delta Open Sharing/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.764591 ms
+[debug]               Load.resolveProject(delta-open-sharing-build) took 1.729843ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id delta-open-sharing-build, base: /home/knoldus/Desktop/Delta Open Sharing/project, plugins: List(<none>))) took 5.269648ms
+[debug] [Loading] Done in /home/knoldus/Desktop/Delta Open Sharing/project, returning: (delta-open-sharing-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 7.574651ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.032251ms
+[debug]         Load.loadUnit(file:/home/knoldus/Desktop/Delta%20Open%20Sharing/project/, ...) took 28.414018ms
+[debug]       Load.apply: load took 31.168848ms
+[debug]       Load.apply: resolveProjects took 0.221786ms
+[debug]       Load.apply: finalTransforms took 25.116359ms
+[debug]       Load.apply: config.delegates took 0.890985ms
+[debug]       Load.apply: Def.make(settings)... took 248.720421ms
+[debug]       Load.apply: structureIndex took 125.429844ms
+[debug]       Load.apply: mkStreams took 0.006154ms
+[info] loading project definition from /home/knoldus/Desktop/Delta Open Sharing/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2009.813726ms
+[debug]     Load.loadUnit: defsScala took 0.004046ms
+[debug] [Loading] Scanning directory /home/knoldus/Desktop/Delta Open Sharing
+[debug]       Load.loadUnit: mkEval took 12.307996ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 9.59692 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 5.153242ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /home/knoldus/Desktop/Delta Open Sharing, plugins: List(<none>))) took 19.668379ms
+[debug] [Loading] Done in /home/knoldus/Desktop/Delta Open Sharing, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 764.959918ms
+[debug]     Load.loadUnit: cleanEvalClasses took 9.762412ms
+[debug]   Load.loadUnit(file:/home/knoldus/Desktop/Delta%20Open%20Sharing/, ...) took 2785.446776ms
+[debug] Load.apply: load took 2787.653634ms
+[debug] Load.apply: resolveProjects took 0.318194ms
+[debug] Load.apply: finalTransforms took 22.196235ms
+[debug] Load.apply: config.delegates took 0.765266ms
+[debug] Load.apply: Def.make(settings)... took 252.768049ms
+[debug] Load.apply: structureIndex took 83.951221ms
+[debug] Load.apply: mkStreams took 0.004543ms
+[info] set current project to Delta Open Sharing (in build file:/home/knoldus/Desktop/Delta%20Open%20Sharing/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/knoldus/.sbt/1.0/server/e5c90e0708a30e4dc5ec/sock
+[debug] Writing bsp connection file
+[info] started sbt server
